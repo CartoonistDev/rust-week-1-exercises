@@ -47,7 +47,6 @@ pub fn tx_priority(_size_bytes: u64, _fee_btc: f64) -> &'static str {
     }
 }
 
-
 /// Return true if the network string equals "mainnet" (case-insensitive).
 pub fn is_mainnet(_network: &str) -> bool {
     // TODO: Convert network to lowercase and compare with "mainnet"
